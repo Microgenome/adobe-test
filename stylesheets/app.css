@@ -2227,9 +2227,16 @@ abbr {
 /* Blockquotes */
 /* line 312, ../../../../Library/Ruby/Gems/2.0.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 blockquote {
-  margin: 0 0 1.25em;
-  padding: 0.5625em 1.25em 0 1.1875em;
-  border-left: 1px solid #dddddd;
+  margin: 0 0 1.5em; /* Bottom margin */
+  padding: 1em; /* Padding around the text */
+  border-left: 4px solid rgba(255, 0, 0, 0.5); /* Left border with semi-transparent red */
+  background: rgba(255, 0, 0, 0.2); /* Red glass-like background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Text color */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support for glass effect */
 }
 /* line 317, ../../../../Library/Ruby/Gems/2.0.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 blockquote cite {
